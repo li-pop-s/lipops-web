@@ -1,0 +1,20 @@
+{
+  "name": "lipops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf _site",
+    "deploy": "npm run clean && npm run build && rsync -rvzh --delete _site/ jirm@ssh-jirm.alwaysdata.net:/home/jirm/www_lipops-jirm-eu"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "qrcode": "^1.5.4"
+  }
+}

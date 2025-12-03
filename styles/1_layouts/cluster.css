@@ -1,0 +1,11 @@
+
+/* The cluster - horizontal wrapping */
+/* https://every-layout.dev/layouts/cluster/ */
+
+.l_cluster {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--l_cluster__gap, 1rem);
+    justify-content: flex-start;
+    align-items: center;
+}

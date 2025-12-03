@@ -1,0 +1,21 @@
+.b_prose {
+    max-inline-size: 65ch;
+    margin-inline: auto;
+}
+
+
+/* .b_prose > * {
+  max-inline-size: 65ch;
+} */
+
+.b_prose > blockquote {
+  max-inline-size: 45ch;
+}
+
+/* .b_prose > h1 {
+  max-inline-size: 23ch;
+}
+
+.b_prose > :is(h2,h3) {
+  max-inline-size: 33ch;
+} */
