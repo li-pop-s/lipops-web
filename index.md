@@ -7,7 +7,7 @@ date: 2025-12-01
 
 # Mise à jour vers Windows 11 impossible ?
 
-> Ce n'est pas votre ordinateur qu'il faut jeter… mais plutot Windows !
+<p class="b_lede">Ce n'est pas votre ordinateur qu'il faut jeter… mais plutot Windows !</p>
 
 Ne rachetez pas un ordinateur, venez plutôt à un atelier pour y installer Linux et continuer à vous en servir avec des logiciels : surs, à jour et respectueux de votre vie privée.
 

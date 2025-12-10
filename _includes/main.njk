@@ -24,11 +24,16 @@ main_url: lipops.jirm.eu
   <footer class="l_box l_flow">
     <hr>
 
-    <div class="l_repel">
+    <div class="l_repel" style="--l_repel__wrap : nowrap">
       <div class="l_flow">
-        Liste d'évènements à jour disponible sur <a href="http://{{ main_url }}">{{ main_url }}</a>
+        <p><strong>Document à jour disponible sur <a href="http://{{ main_url }}">{{ main_url }}</a></strong></p>
+        <small>LiPOPS - Libre & Populaire à Strasbourg : organisation coordonnées d'ateliers d'éducation populaire sur la libération numérique.
+          Organisé par
+          l'association <a href="https://lafab.org">La Fabrique</a> et
+          l'association <a href="https://arn-fai.net">Alsace Réseau Neutre</a>.
+          </small>
       </div>
-      {% qrcode "http://"+main_url, 100, "QR code", "qrcode" %}
+      <div style="flex-shrink: 0;">{% qrcode "http://"+main_url, 100, "QR code", "qrcode" %}</div>
     </div>
   </footer>
 

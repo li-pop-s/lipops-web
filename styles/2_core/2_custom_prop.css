@@ -44,11 +44,9 @@
 }
 :root {
     --color-dark: #0c0c0c;
+    --color-dark-soft: #424242;
     --color-light: #ffffff;
+
     --color-primary: #eb0000;
-
-    --l_center__size: 70ch;
-    --l_cover__size: 60vh;
-
-    --l_flow__space: 1em;
+    --color-secondary: #9e2727;
 }
