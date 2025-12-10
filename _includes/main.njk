@@ -1,19 +1,16 @@
 ---
 layout: html.njk
-main_url: lipops.arn-fai.net
+main_url: lipops.jirm.eu
 ---
 
 <div class="l_center" style="--l_center__size : 60rem;">
 
   <header class="l_box">
-    <div class="l_repel ">
-      <div>
-        <h1>Initiative LiPOPS</h1>
-        <h2>Libre & Populaire à Strasbourg</h2>
-      </div>
-      <a href="/">
-        <img src="logo/lipops_logo.svg" alt="" class="logo_img">
-      </a>
+    <div class="l_repel l_box">
+      <a href="https://arn-fai.net"><img src="/logo/logo-ARN.svg" style="inline-size: 22rem;"></a>
+      <a href="https://lafab.org/"><img src="/logo/lafab.svg" style="inline-size: 10rem;"></a>
+      <!-- <a href="https://acrociation.fr/">Acrociation</a> -->
+      <!-- <a href="https://hackstub.eu">Hackstub</a> -->
     </div>
     <hr>
   </header>
@@ -29,16 +26,7 @@ main_url: lipops.arn-fai.net
 
     <div class="l_repel">
       <div class="l_flow">
-
         Liste d'évènements à jour disponible sur <a href="http://{{ main_url }}">{{ main_url }}</a>
-
-        <div class="l_cluster">
-          <a href="https://arn-fai.net">Alsace Réseau Neutre</a>
-          <a href="https://lafab.org/">La Fabrique</a>
-          <!-- <a href="https://acrociation.fr/">Acrociation</a> -->
-          <!-- <a href="https://hackstub.eu">Hackstub</a> -->
-        </div>
-
       </div>
       {% qrcode "http://"+main_url, 100, "QR code", "qrcode" %}
     </div>
