@@ -99,8 +99,7 @@ pre {
 }
 
 hr {
-    color: var(--color-primary);
-    border-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
 }
 
 header h1 {
