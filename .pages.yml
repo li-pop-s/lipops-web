@@ -1,0 +1,15 @@
+content:
+  - name: Accueil
+    path: index.md
+    type: file
+    fields:
+      - name: title
+        type: string
+      - name: layout
+        type: string
+        default: main.njk
+        hidden: true
+      - name: date
+        type: date
+      - name: body
+        type: text
