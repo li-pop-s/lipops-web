@@ -11,5 +11,23 @@ content:
         hidden: true
       - name: date
         type: date
+      - name: heading
+        type: string
+      - name: subheading
+        type: string
+      - name: intro
+        type: text
+      - name: list_intro
+        type: text
+      - name: workshop_list
+        type: object
+        list: true
+        fields:
+          - name: info
+            type: string
+          - name: adresse
+            type: string
+      - name: extro
+        type: text
       - name: body
         type: text
