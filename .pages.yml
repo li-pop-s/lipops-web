@@ -31,3 +31,4 @@ content:
         type: text
       - name: body
         type: text
+        hidden: true
