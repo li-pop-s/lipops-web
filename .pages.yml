@@ -25,6 +25,12 @@ content:
         fields:
           - name: info
             type: string
+          - name: date
+            type: string
+          - name: title
+            type: string
+          - name: url
+            type: string
           - name: adresse
             type: string
       - name: extro
