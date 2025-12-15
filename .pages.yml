@@ -23,8 +23,6 @@ content:
         type: object
         list: true
         fields:
-          - name: info
-            type: string
           - name: date
             type: string
           - name: title
