@@ -10,7 +10,8 @@ content:
         default: main.njk
         hidden: true
       - name: date
-        type: date
+        type: string
+        hidden: true
       - name: heading
         type: string
       - name: subheading
