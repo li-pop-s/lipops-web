@@ -12,6 +12,9 @@ workshop_list:
   - info: "[13 décembre 2025 à
       14h](https://hoplagenda.fr/events/1c0cad2d-e0a2-4940-adc6-736a1c94a027) -
       *Café HOP!* par ARN à la Médiathèque du Neudorf"
+    date: 13 décembre 2025 à 14h
+    title: "*Café HOP!* par ARN à la Médiathèque du Neudorf"
+    url: https://hoplagenda.fr/events/1c0cad2d-e0a2-4940-adc6-736a1c94a027
     adresse: 1 Place du Marché-Neudorf, Strasbourg
   - info: "[8 janvier 2026 à
       18h](https://la-fabrique.tibillet.coop/event/adieu-windows-260108-1800-84\
@@ -33,25 +36,3 @@ extro: |-
   Repartez avec un ordinateur plus rapide, plus sécurisé et libéré !
   Stop au gaspillage, stop à l’obsolescence programmée.
 ---
-
-<h1>{{heading}}</h1>
-
-<p class="b_lede">{{subheading}}</p>
-
-{{intro}}
-
-<strong>{{list_intro}}</strong>
-
-<ul>
-{% for event in workshop_list %}
-    <li>
-    {{event.info}}
-    <ul><li>{{event.adresse}}</li></ul>
-    </li>
-{% endfor %}
-</ul>
-
-<blockquote>
-{{extro}}
-</blockquote>
-
