@@ -36,7 +36,7 @@ content:
       - name: body
         type: text
   - name: Template
-    path: _include/main.njk
+    path: _includes/main.njk
     type: file
     fields:
       - name: layout
