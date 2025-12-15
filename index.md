@@ -9,10 +9,6 @@ intro: "Ne rachetez pas un ordinateur, venez plutôt à un atelier pour y
   jour et respectueux de votre vie privée."
 list_intro: "Prochains ateliers :"
 workshop_list:
-  - date: 13 décembre 2025 à 14h
-    title: "*Café HOP!* par ARN à la Médiathèque du Neudorf"
-    url: https://hoplagenda.fr/events/1c0cad2d-e0a2-4940-adc6-736a1c94a027
-    adresse: 1 Place du Marché-Neudorf, Strasbourg
   - date: 8 janvier 2026 à 18h
     title: "*Adieu Windows* par La Fabrique"
     url: https://la-fabrique.tibillet.coop/event/adieu-windows-260108-1800-84152606
