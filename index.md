@@ -1,7 +1,7 @@
 ---
 title: Initiative LIPOPS
 layout: main.njk
-date: 2025-12-01
+date: Last Modified
 heading: Mise à jour vers Windows 11 impossible ?
 subheading: Ce n'est pas votre ordinateur qu'il faut jeter… mais plutot Windows !
 intro: "Ne rachetez pas un ordinateur, venez plutôt à un atelier pour y
