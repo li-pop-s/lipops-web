@@ -7,7 +7,7 @@ subheading: Ce n'est pas votre ordinateur qu'il faut jeter… mais plutot Window
 intro: "Ne rachetez pas un ordinateur, venez plutôt à un atelier pour y
   installer Linux et continuer à vous en servir avec des logiciels : surs, à
   jour et respectueux de votre vie privée."
-list_intro: "Prochains ateliers autour de Strasbourg :"
+list_intro: "Prochains ateliers :"
 workshop_list:
   - date: 13 décembre 2025 à 14h
     title: "*Café HOP!* par ARN à la Médiathèque du Neudorf"
@@ -33,7 +33,6 @@ extro: |-
   Repartez avec un ordinateur plus rapide, plus sécurisé et libéré !
   Stop au gaspillage, stop à l’obsolescence programmée.
 ---
-
 <h1>{{heading}}</h1>
 
 <p class="b_lede">{{subheading}}</p>
