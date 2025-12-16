@@ -1,4 +1,3 @@
-
 /* global font, color and vertical rythmn */
 /* A lot come from https://piccalil.li/blog/some-simple-ways-to-make-content-look-good/ */
 
@@ -7,8 +6,24 @@ body {
     background: var(--color-light);
     font-family: var(--font-family-primary);
     font-size: var(--step-0);
-    line-height: 1.5;
     text-wrap: pretty;
+    line-height: 1.5;
+    --l_flow__space: 1rem;
+    --l_box__padding: 1rem;
+    --l_center__size: 40em;
+}
+
+@page {
+    size: A5 portrait;
+    margin: 0.5cm 1cm;
+}
+
+@media print {
+    body {
+        line-height: 1.25;
+        --l_flow__space: 1.2rem;
+        --l_box__padding: 0.5em;
+    }
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -18,14 +33,32 @@ body {
     hyphens: auto;
 }
 
+@media print {
+    :is(h1, h2, h3, h4, h5, h6) {
+        line-height: 1.0;
+    }
+}
+
 /* réduire la hauteur de ligne des titres */
 :is(h1, h2, h3, h4, h5, h6, blockquote) {
     --l_flow__space: 1.25em;
 }
 
+@media print {
+    :is(h1, h2, h3, h4, h5, h6, blockquote) {
+        --l_flow__space: 1.2em;
+    }
+}
+
 /* rapprocher le titre avec le texte qui suit */
 :is(h1, h2, h3, h4, h5, h6)+* {
     --l_flow__space: 0.5em;
+}
+
+@media screen {
+    :is(h1, h2, h3, h4, h5, h6)+* {
+        --l_flow__space: 0.4em;
+    }
 }
 
 h1 {
@@ -55,12 +88,11 @@ h6 {
 :is(ul, ol) {
     /* se rapprocher de la ligne du dessus */
     --l_flow__space: 0.25em;
-
 }
 
 ol {
     /* pour que les numéro des ol soit plus à droite */
-    list-style-position: inside; 
+    list-style-position: inside;
 }
 
 blockquote {

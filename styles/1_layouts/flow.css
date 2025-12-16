@@ -6,8 +6,6 @@
     margin-block: 0;
 }
 
-/* TODO il>li>p ont trop de marge */
-
 .l_flow>*+* {
     margin-block-start: var(--l_flow__space, 1em);
 }

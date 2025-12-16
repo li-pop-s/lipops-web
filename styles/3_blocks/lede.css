@@ -4,12 +4,17 @@
 .b_lede {
   font-size: var(--step-2);
   font-style: italic;
-  max-inline-size: 45ch;
+  max-width: 45ch;
   text-wrap: wrap;
   color: var(--color-secondary)
 }
 
-.b_lede + * {
+.b_lede+* {
   --l_flow-space: 2em;
 }
 
+@media print {
+  .b_lede+* {
+    --l_flow-space: 1.5em;
+  }
+}
