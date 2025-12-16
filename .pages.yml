@@ -10,7 +10,8 @@ content:
         default: main.njk
         hidden: true
       - name: date
-        type: date
+        type: string
+        hidden: true
       - name: heading
         type: string
       - name: subheading
@@ -33,5 +34,17 @@ content:
             type: string
       - name: extro
         type: text
+      - name: body
+        type: text
+  - name: Template
+    path: _includes/main.njk
+    type: file
+    fields:
+      - name: layout
+        type: string
+        default: html.njk
+        hidden: true
+      - name: main_url
+        type: string
       - name: body
         type: text
