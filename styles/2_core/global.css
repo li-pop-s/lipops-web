@@ -109,6 +109,13 @@ a {
     text-underline-offset: 0.2ex;
 }
 
+@media print {
+    a {
+        text-decoration: none;
+        color: var(--color-secondary);
+    }
+}
+
 /* style français */
 ul {
     list-style-type: '- ';
