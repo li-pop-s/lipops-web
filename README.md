@@ -7,10 +7,10 @@ Fait avec [Eleventy](https://www.11ty.dev/), un générateur de site statique en
 
 Pour Node.js : une manière de l'installer (sous Linux) est [Node Version Manager](https://github.com/nvm-sh/nvm) :
 
-~~~
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
-nvm install --lts
-~~~
+- installer NVM, [voir leur doc](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
+- (seulement la première fois) mise à jour var env `source ~/.bashrc`
+- puis `nvm install --lts`
+
 
 ## Préparation du dépot
 
