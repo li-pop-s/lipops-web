@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Calque_1"
+   data-name="Calque 1"
+   viewBox="0 0 256 256"
+   version="1.1"
+   sodipodi:docname="arn_simple.svg"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="3.1210938"
+     inkscape:cx="127.8398"
+     inkscape:cy="128"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Calque_1" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #2daee0;
+      }
+    </style>
+  </defs>
+  <rect
+     class="cls-2"
+     width="256"
+     height="256"
+     id="rect1"
+     ry="30"
+     x="0"
+     y="0" />
+  <path
+     class="cls-1"
+     d="M181.03,191.33l-11.26-67.89c-.44-2.74-2.81-4.78-5.63-4.78h-50.56l-15.7-80.86c-.59-3.07-3.59-5.11-6.67-4.52-2.56.48-4.44,2.63-4.59,5.22l-11.85,178.27c-.22,3.15,2.15,5.85,5.3,6.04h.41c.48,0,.96-.07,1.44-.19l60.63-15.85,11.7-3.07,22.63-5.93c2.81-.74,4.63-3.56,4.15-6.44ZM159.33,130.07l4.37,26.37c-7.93-10.59-17.85-19.52-29.19-26.37h24.82ZM95.06,83.03l6.67,34.37c-2.7-.52-5.48-.96-8.26-1.3-.19-.04-.41-.04-.59,0l2.19-33.08ZM86.66,209.67l1.48-22.19c8.19,3.22,15.08,9.07,19.59,16.67l-21.08,5.52ZM123.1,200.11c-6.74-13.89-19.08-24.22-33.89-28.45l1-15.04c21.08,5.15,38.6,19.82,47.34,39.67l-14.45,3.82ZM151.92,192.56c-10.59-25.93-33.34-44.93-60.74-50.74l.81-12.22c.33.19.67.26,1.04.33,33.3,3.93,61.19,27.56,70.71,59.56l-11.82,3.07Z"
+     id="path1" />
+</svg>

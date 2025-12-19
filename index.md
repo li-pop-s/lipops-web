@@ -2,12 +2,12 @@
 title: Initiative LIPOPS
 layout: main.njk
 date: Last Modified
-heading: Mise à jour vers Windows 11 impossible ?
+heading: Mise à jour vers Windows 11 impossible ?
 subheading: Ce n'est pas votre ordinateur qu'il faut jeter… mais plutot Windows !
 intro: "Ne rachetez pas un ordinateur, venez plutôt à un atelier pour y
   installer Linux et continuer à vous en servir avec des logiciels : surs, à
   jour et respectueux de votre vie privée."
-list_intro: "Prochains ateliers :"
+list_intro: "Prochains ateliers :"
 workshop_list:
   - date: 8 janvier 2026 à 18h
     title: "*Adieu Windows* par La Fabrique"
@@ -26,7 +26,7 @@ workshop_list:
     url: https://hoplagenda.fr/events/fd0157c3-b7aa-40d7-b266-e61a13bdafc1
     adresse: Allée François Mitterrand, Illkirch-Graffenstaden
 extro: |-
-  Repartez avec un ordinateur plus rapide, plus sécurisé et libéré !
+  Repartez avec un ordinateur plus rapide, plus sécurisé et libéré !
   Stop au gaspillage, stop à l’obsolescence programmée.
 ---
 <h1>{{heading}}</h1>

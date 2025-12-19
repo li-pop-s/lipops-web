@@ -11,6 +11,7 @@ body {
     --l_flow__space: 1rem;
     --l_box__padding: 1rem;
     --l_center__size: 40em;
+    --logo-size: 6em;
 }
 
 @page {
@@ -23,6 +24,7 @@ body {
         line-height: 1.25;
         --l_flow__space: 1.2rem;
         --l_box__padding: 0.5em;
+        --logo-size: 2cm;
     }
 }
 
