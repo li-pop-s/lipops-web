@@ -6,7 +6,7 @@
   font-style: italic;
   max-width: 45ch;
   text-wrap: wrap;
-  color: var(--color-secondary)
+  color: var(--color-secondary);
 }
 
 .b_lede+* {
@@ -15,6 +15,6 @@
 
 @media print {
   .b_lede+* {
-    --l_flow-space: 1.5em;
+    --l_flow-space: 1.25em;
   }
 }

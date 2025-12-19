@@ -21,8 +21,8 @@ body {
 
 @media print {
     body {
-        line-height: 1.25;
-        --l_flow__space: 1.2rem;
+        line-height: 1.2;
+        --l_flow__space: 0.6rem;
         --l_box__padding: 0.5em;
         --logo-size: 2cm;
     }
@@ -102,6 +102,7 @@ blockquote {
     border-inline-start: 0.3em solid var(--color-primary);
     font-style: italic;
     font-size: var(--step-1);
+    font-family: var(--font-family-secondary);
 }
 
 a {
