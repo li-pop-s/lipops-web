@@ -24,6 +24,7 @@ body {
         line-height: 1.2;
         --l_flow__space: 0.6rem;
         --l_box__padding: 0.5em;
+        --l_center__size: 999em;
         --logo-size: 2cm;
     }
 }
