@@ -6,7 +6,7 @@ heading: Mise à jour vers Windows 11 impossible ?
 subheading: Ce n'est pas votre ordinateur qu'il faut jeter… mais plutot Windows !
 intro: "Ne rachetez pas un ordinateur, venez plutôt à un atelier pour y
   installer Linux et continuer à vous en servir avec des logiciels libres."
-list_intro: "Prochains ateliers :"
+list_intro: "Prochains ateliers :"
 workshop_list:
   - date: 5 février 2026 à 18h
     title: "*Adieu Windows* par La Fabrique"
@@ -26,13 +26,9 @@ workshop_list:
     adresse: 1 Place du Marché-Neudorf, Strasbourg
 ---
 <h1>{{heading}}</h1>
-
 <p class="b_lede">{{subheading}}</p>
-
-{{intro}}
-
-<strong>{{list_intro}}</strong>
-
+<p>{{intro}}</p>
+<p><strong>{{list_intro}}</strong></p>
 <ul>
 {% for event in workshop_list %}
     <li>
@@ -40,4 +36,11 @@ workshop_list:
     <ul><li>{{event.adresse}}</li></ul>
     </li>
 {% endfor %}
+</ul>
+<p>Ateliers sur inscription, voir le site web concerné</p>
+<p>Et chaque vendredi 19h à <em>La Stammtisch</em> de la
+<a href="https://hackstub.eu/home/fr/schedule">Hackstub</a></p>
+<ul>
+<li>bâtiment «La Moquetterie», 8 rue Thomas Mann, Strasbourg</li>
+<li>inscription, email  <code>bureau [at] hackstub [point] eu</code></li>
 </ul>
