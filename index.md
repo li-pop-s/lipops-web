@@ -9,22 +9,22 @@ intro: "Ne rachetez pas un ordinateur, venez plutôt à un atelier pour y
   jour et respectueux de votre vie privée."
 list_intro: "Prochains ateliers :"
 workshop_list:
-  - date: 8 janvier 2026 à 18h
-    title: "*Adieu Windows* par La Fabrique"
-    url: https://la-fabrique.tibillet.coop/event/adieu-windows-260108-1800-84152606
-    adresse: parc Grüber (en bas, coté voie ferrée), 91 route des romains, Strasbourg
-  - date: 17 janvier 2026 à 14h
-    title: "*Café HOP!* par ARN à La Plage Digitale"
-    url: https://hoplagenda.fr/events/358c7cf1-0f07-40fc-ae0a-8f4cf0a59921
-    adresse: 13 Rue Jacques Peirotes, Strasbourg
   - date: 5 février 2026 à 18h
     title: "*Adieu Windows* par La Fabrique"
     url: https://la-fabrique.tibillet.coop/event/adieu-windows-260205-1800-7e74d335
-    adresse: parc Grüber (en bas, coté voie ferrée), 91 route des romains, Strasbourg
+    adresse: parc Grüber, 91 route des romains, Strasbourg
   - date: 14 février 2026 à 14h
     title: "*Café HOP!* par ARN à la Médiathèque Simone Veil"
     url: https://hoplagenda.fr/events/fd0157c3-b7aa-40d7-b266-e61a13bdafc1
     adresse: Allée François Mitterrand, Illkirch-Graffenstaden
+  - date: 5 mars 2026 à 18h
+    title: "*Adieu Windows* par La Fabrique"
+    url: https://la-fabrique.tibillet.coop/event/adieu-windows-260305-1800-6140fb37
+    adresse: parc Grüber, 91 route des romains, Strasbourg
+  - date: 14 mars 2026 à 14h
+    title: "*Café HOP!* par ARN à la Médiathèque du Neudorf"
+    url: https://hoplagenda.fr/events/ad89b85e-fb04-41e7-86c2-e26f23852b41
+    adresse: 1 Place du Marché-Neudorf, Strasbourg
 extro: |-
   Repartez avec un ordinateur plus rapide, plus sécurisé et libéré !
   Stop au gaspillage, stop à l’obsolescence programmée.
