@@ -5,8 +5,7 @@ date: Last Modified
 heading: Mise à jour vers Windows 11 impossible ?
 subheading: Ce n'est pas votre ordinateur qu'il faut jeter… mais plutot Windows !
 intro: "Ne rachetez pas un ordinateur, venez plutôt à un atelier pour y
-  installer Linux et continuer à vous en servir avec des logiciels : surs, à
-  jour et respectueux de votre vie privée."
+  installer Linux et continuer à vous en servir avec des logiciels libres."
 list_intro: "Prochains ateliers :"
 workshop_list:
   - date: 5 février 2026 à 18h
@@ -25,9 +24,6 @@ workshop_list:
     title: "*Café HOP!* par ARN à la Médiathèque du Neudorf"
     url: https://hoplagenda.fr/events/ad89b85e-fb04-41e7-86c2-e26f23852b41
     adresse: 1 Place du Marché-Neudorf, Strasbourg
-extro: |-
-  Repartez avec un ordinateur plus rapide, plus sécurisé et libéré !
-  Stop au gaspillage, stop à l’obsolescence programmée.
 ---
 <h1>{{heading}}</h1>
 
@@ -45,7 +41,3 @@ extro: |-
     </li>
 {% endfor %}
 </ul>
-
-<blockquote>
-{{extro}}
-</blockquote>
