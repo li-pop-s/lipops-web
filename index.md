@@ -25,22 +25,25 @@ workshop_list:
     url: https://hoplagenda.fr/events/ad89b85e-fb04-41e7-86c2-e26f23852b41
     adresse: 1 Place du Marché-Neudorf, Strasbourg
 ---
-<h1>{{heading}}</h1>
-<p class="b_lede">{{subheading}}</p>
-<p>{{intro}}</p>
-<p><strong>{{list_intro}}</strong></p>
-<ul>
+
+# {{heading}}
+
+{{subheading}} {.b_lede}
+
+{{intro}}
+
+<strong>{{list_intro}}</strong>
+
 {% for event in workshop_list %}
-    <li>
-    <a href="{{event.url}}">{{event.date}}</a> - {{event.title}} 
-    <ul><li>{{event.adresse}}</li></ul>
-    </li>
+- [{{event.date}}]({{event.url}}) - {{event.title}}
+  - {{event.adresse}}
 {% endfor %}
-</ul>
-<p>Ateliers sur inscription, voir le site web concerné</p>
-<p>Et chaque vendredi 19h à <em>La Stammtisch</em> de la
-<a href="https://hackstub.eu/home/fr/schedule">Hackstub</a></p>
-<ul>
-<li>bâtiment «La Moquetterie», 8 rue Thomas Mann, Strasbourg</li>
-<li>inscription, email  <code>bureau [at] hackstub [point] eu</code></li>
-</ul>
+
+Ateliers sur inscription, voir le site web concerné
+
+Et chaque vendredi 19h à <em>La Stammtisch</em> de la
+[Hackstub](https://hackstub.eu/home/fr/schedule)
+- bâtiment «La Moquetterie», 8 rue Thomas Mann, Strasbourg
+- inscription, email  <code>bureau [at] hackstub [point] eu</code>
+
+

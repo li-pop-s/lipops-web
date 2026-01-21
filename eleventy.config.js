@@ -1,5 +1,6 @@
 import QRCode from "qrcode";
 import { DateTime } from "luxon";
+import markdownItAttrs from 'markdown-it-attrs';
 
 /**
  * Generates a QR code for a given URL and returns an inline SVG
@@ -40,6 +41,8 @@ async function qrCodeShortcode(url, size = 100, alt = 'QR Code', className = '')
 }
 
 export default async function (eleventyConfig) {
+
+  eleventyConfig.amendLibrary("md", (mdLib) => mdLib.use(markdownItAttrs));
 
   eleventyConfig
     .addPassthroughCopy({
