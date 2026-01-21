@@ -3,9 +3,9 @@ title: Initiative LIPOPS
 layout: main.njk
 date: Last Modified
 heading: Mise à jour vers Windows 11 impossible ?
-subheading: Ce n'est pas votre ordinateur qu'il faut jeter… mais plutot Windows !
-intro: "Ne rachetez pas un ordinateur, venez plutôt à un atelier pour y
-  installer Linux et continuer à vous en servir avec des logiciels libres."
+subheading: Ce n'est pas votre ordinateur qu'il faut jeter… mais plutôt Windows !
+intro: "Ne rachetez pas un ordinateur, venez à un atelier pour y
+  installer Linux et continuer à vous servir de votre matériel avec des logiciels libres."
 list_intro: "Prochains ateliers :"
 workshop_list:
   - date: 5 février 2026 à 18h
@@ -39,11 +39,10 @@ workshop_list:
   - {{event.adresse}}
 {% endfor %}
 
-Ateliers sur inscription, voir le site web concerné
+Ateliers sur inscription, voir le site web de l'association concernée.
 
-Et chaque vendredi 19h à <em>La Stammtisch</em> de la
-[Hackstub](https://hackstub.eu/home/fr/schedule)
+Et [chaque vendredi 19h](https://hackstub.eu/home/fr/schedule) à <em>La Stammtisch</em> de la Hackstub
 - bâtiment «La Moquetterie», 8 rue Thomas Mann, Strasbourg
-- inscription, email  <code>bureau [at] hackstub [point] eu</code>
+- inscription : email  <code>bureau [at] hackstub [point] eu</code>
 
 
