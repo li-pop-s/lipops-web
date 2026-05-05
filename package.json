@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "eleventy --serve",
     "build": "eleventy",
-    "clean": "rm -rf _site",
-    "deploy": "npm run clean && npm run build && rsync -rvzh --delete _site/ jirm@ssh-jirm.alwaysdata.net:/home/jirm/www_lipops-jirm-eu"
+    "clean": "rm -rf _site"
   },
   "keywords": [],
   "author": "",
